@@ -9,7 +9,7 @@ public class Lab050_TypeCasting {
         // Widening  -  Smaller Datatype can be converted to bigger Datatype
         byte b = 10;
         int a = b;   // Valid - Implicit Casting - JVM does this automatically - lossless
-        int a1 = b;   // Valid - Explicit Casting - JVM - line 11 and line 12 are same
+        int a1 = (int)b;   // Valid - Explicit Casting - JVM - line 11 and line 12 are same
 
         // Narrowing  - Bigger Datatype can be converted to smaller Datatype
         int val = 300;
