@@ -6,12 +6,12 @@ public class Lab_079_Switch_New_JDK13_2 {
        // We can have multiple values in the cases
         //In line 13 we are essentially telling - if the browser matches chrome or firefox or edge then run this
 
-        int itemCode = 003;
+        int itemCode = 3;
 
         switch (itemCode) {
 
-            case 001, 002 -> System.out.println("Staring chrome browser");
-            case 003 -> {
+            case 1, 2 -> System.out.println("Staring chrome browser");
+            case 3 -> {
                 System.out.println("Staring safari browser");
                 System.out.println("this is test browser");
             }

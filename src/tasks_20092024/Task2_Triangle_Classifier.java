@@ -82,3 +82,14 @@ Enter the side 3:
 0
 !!!!!!Please enter only positive numbers!!!!!!!
  */
+
+/*
+output:
+Enter the side 1:
+0
+Enter the side 2:
+0
+Enter the side 3:
+1
+!!!!!!Please enter only positive numbers!!!!!!!
+ */
