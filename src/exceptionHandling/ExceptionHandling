@@ -1,0 +1,16 @@
+Exceptions can be handled by:
+1. Try and Catch(finally) blocks
+2. Throws
+
+
+Exceptions types:
+1. Checked - If JVM knows about it - Eg, FileNotFoundException, SQlException, IOException, ClassNotFoundException
+2. Unchecked -  If JVM doesnt know about it Eg, / by Zero, ArithmeticExecption, arrayOutOfBoundException, NullPointerException
+
+Exception has a parent class- Throwable
+Object is the Super class of everything3
+
+We can have multiple try blocks
+We can have multiple catch blocks
+We can catch multiple exceptions in single line by using '|'
+catch(Arithmetic Exception | Exception e)
