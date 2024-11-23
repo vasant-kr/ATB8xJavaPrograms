@@ -1,10 +1,14 @@
+Difference between Exception and Error:
+Both are an event in program that occurs during the execution tha disrupts the normal flow of instructions.
+Exceptions can be handled. Errors cant be handled. Eg. MemoryOverflow
+
 Exceptions can be handled by:
 1. Try and Catch(finally) blocks
 2. Throws
 
 
 Exceptions types:
-1. Checked - If JVM knows about it - Eg, FileNotFoundException, SQlException, IOException, ClassNotFoundException
+1. Checked - If JVM knows about it (RuntimeException) - Eg, FileNotFoundException, SQlException, IOException, ClassNotFoundException
 2. Unchecked -  If JVM doesnt know about it Eg, / by Zero, ArithmeticExecption, arrayOutOfBoundException, NullPointerException
 
 Exception has a parent class- Throwable
@@ -14,3 +18,19 @@ We can have multiple try blocks
 We can have multiple catch blocks
 We can catch multiple exceptions in single line by using '|'
 catch(Arithmetic Exception | Exception e)
+
+throw is used to throw a new type of custom exception
+Eg.
+throw new Exception("blah blah blah");
+multiple throw not allowed for a try or function
+
+throws mean that this function can throw any exception.
+To declare an exception
+multiple throws are allowed
+
+We can throw an exception, error, throwable
+
+finally block is for always executing even if an exception occurs
+
+
+
